@@ -1,0 +1,13 @@
+By typing "make", the makefile will compile "MIPS.cpp" with g++ and the ouput file is "MIPS.o". Then it will be excuted automatically because of the "./MIPS.o" instruction added in the Makefile.
+
+Update Log:
+
+1. Add an instruction to delete the existing "RFresult.txt" when the class RF is initialized.
+
+2. Add an instruction to delete the existing "dmemresult.txt" when the class Dmem is initialized.
+
+3. Add an instruction to delete the existing "Result.txt" when the program begins.
+
+4. Change the type of function ALUOperation to "void"
+
+5. Change the type of function MemoryAccess to "void"
